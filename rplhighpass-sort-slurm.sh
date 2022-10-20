@@ -29,9 +29,6 @@ export_mountain_cells.export_mountain_cells(); \
 print(time.localtime());"
 
 
-aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:059667601822:awsnotify --message "RPLHPSortJobDone"
-
-
 conda deactivate 
 /data/src/PyHipp/envlist.py $envarg
 

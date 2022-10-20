@@ -20,4 +20,3 @@ pyh.RPLLFP(saveLevel=1); \
 print(time.localtime());"
 
 
-aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:059667601822:awsnotify --message "rpllfpJobDone"
